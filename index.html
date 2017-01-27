@@ -9,39 +9,49 @@
     <link rel="stylesheet" href="static/stylesheets/index.css"> 
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid fullHeight">
       <div class="jumbotron" id="hero">
         <img src="static/images/logoPerspectiveSpace.png" id="mainLogo">
         <h1 id="mainTitle">Whiteboard Dynamics</h1>
         <p>Software Development Redefined</p>
-      </div>
-      <div class="row">
-        <div class="text-center">
-          <ul class="pagination pagination-lg" id="navBar">
-            <li><a href="#work">What We Do</a></li>
-            <li><a href="#team">Who We Are</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-            <li><a href="https://medium.com/whiteboard-dynamics-blog">Blog</a></li>
-          </ul>
+        <div class="row">
+          <div class="text-center">
+            <ul class="pagination pagination-lg" id="navBar">
+              <li><a href="#work">What We Do</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#team">Who We Are</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="https://medium.com/whiteboard-dynamics-blog">Blog</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </div>    
+    </div>
+    <div class="container-fluid">
       <div class="row text-center" id="work">
         <div class="col-md-3 col-sm-3">
-          <img src="static/images/android.png" class="work">
+          <img src="static/images/android.png" class="workImage">
           <p class="workText">We produce world class Android apps leveraging rock solid engineering and best practices.</p>
         </div>
         <div class="col-md-3 col-sm-3">
-          <img src="static/images/backend.png" class="work">
+          <img src="static/images/backend.png" class="workImage">
           <p class="workText">We create robust servers for any need or workload.</p>
         </div>
         <div class="col-md-3 col-sm-3">
-          <img src="static/images/rocket.png" class="work">
+          <img src="static/images/rocket.png" class="workImage">
           <p class="workText">Let us jumpstart your idea with a beautiful and functional MVP.</p>
         </div>
         <div class="col-md-3 col-sm-3">
-          <img src="static/images/atom.png" class="work">
+          <img src="static/images/atom.png" class="workImage">
           <p class="workText">We love unique and challenging projects! Contact us for any of your offbeat development needs.</p>
         </div>
+      </div>
+      <div class="row text-center" id="projects">
+          <div class="col-md-12 col-sm-12">
+          <img src="https://lh3.googleusercontent.com/15yMPFRdmrMukXHNQ1bBf4MidCJZ113q-vaLeERx5JMZZGtl-BOn74aEHI5feDiwQ7w=h900" id="ojoScreen">
+          <h2>OJO - TTRN</h2>
+          <p>We developed version 2 of <a href="https://play.google.com/store/apps/details?id=org.ttrn.ojo&hl=en">OJO - TTRN</a> from scratch based on a provided design specification.</p>
+          </div>
       </div>
       <div class="row text-center" id="team">
         <div class="col-md-6 col-sm-6">
@@ -56,9 +66,15 @@
         </div>
       </div>
       <div class="row text-center" id="contact">
-        <h1>Contact Us</h1>
-        <p>Email us for a quote or consultation.</p>
-        <a href="mailto:contact@whiteboarddynamics.co">contact@whiteboarddynamics.co</a>
+        <h2 class="contactMargin">Contact Us</h2>
+        <p class="contactMargin" id="contactParagraph">Email us for a quote or consultation.</p>
+        <a href="mailto:contact@whiteboarddynamics.co" class="contactMargin">contact@whiteboarddynamics.co</a>
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+          <a href="https://medium.com/whiteboard-dynamics-blog"><img src="static/images/medium.png" class="contactIcons"></a>
+          <a href="https://github.com/WhiteboardDynamics"><img src="static/images/github.png" class="contactIcons"></a>
+          </div>
+        </div>
       </div>
     </div>
     <footer class="footer">
