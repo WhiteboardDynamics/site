@@ -51,7 +51,7 @@
 
 .portraits {
   height: 125px;
-  width: 100px;
+  width: 105px;
 }
 
 #contact {
@@ -101,5 +101,5 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 25px;
+    margin-top: 20px;
 }
