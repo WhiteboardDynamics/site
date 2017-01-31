@@ -90,7 +90,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  font-family: "Source Code Pro", sans-serif!important;
+  font-family: "Source Code Pro", monospace!important;
 }
 
 .footer {
