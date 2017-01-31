@@ -49,9 +49,14 @@
   margin-bottom: 50px;
 }
 
-.portraits {
+#jcieslikImage {
   height: 125px;
   width: 105px;
+}
+
+#gwhelanImage {
+  height: 125px;
+  width: 125px;
 }
 
 #contact {
