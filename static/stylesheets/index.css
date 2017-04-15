@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
+.nav-pills > li > a {
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.workblock {
+    margin-bottom: 4vh;
+}
+
+.profile {
+    margin-top: 8vh;
+}
+
 #hero {
   text-align: center;
   background-color: #ffffff;
@@ -53,10 +75,6 @@
   margin-bottom: 50px;
   margin-top: 50px; 
   height: 95vh;
-}
-
-#teamParagraph {
-  margin-bottom: 50px;
 }
 
 #jcieslikImage {

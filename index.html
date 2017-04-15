@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="static/stylesheets/index.css"> 
   </head>
   <body>
+    <div id="wrapper">
     <div class="container-fluid">
       <div class="container-fluid">
       <div class="jumbotron" id="hero">
@@ -21,7 +22,7 @@
         <h1 id="mainTitle">Whiteboard Dynamics</h1>
         <p>Software Development Redefined</p>
         <div class="row text-center">
-          <ul class="pagination pagination-lg" id="navBar">
+          <ul class="nav nav-pills nav-justified" id="navBar">
             <li><a href="#work">What We Do</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#team">Who We Are</a></li>
@@ -36,19 +37,19 @@
       </div>
       <div class="container-fluid">
       <div class="row text-center work" id="work">
-        <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3">
+        <div class="col-md-3 col-sm-3 col-xs-12 col-lg-3 workblock">
           <img src="static/images/android.png" class="workImage">
           <p class="workText">We create world class Android apps leveraging rock solid engineering and best practices.</p>
         </div>
-        <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3">
+        <div class="col-md-3 col-sm-3 col-xs-12 col-lg-3 workblock">
           <img src="static/images/backend.png" class="workImage">
           <p class="workText">We produce robust servers for any need or workload.</p>
         </div>
-        <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3">
+        <div class="col-md-3 col-sm-3 col-xs-12 col-lg-3 workblock">
           <img src="static/images/rocket.png" class="workImage">
           <p class="workText">Let us jumpstart your idea with a beautiful and functional MVP.</p>
         </div>
-        <div class="col-md-3 col-sm-3 col-xs-3 col-lg-3">
+        <div class="col-md-3 col-sm-3 col-xs-12 col-lg-3 workblock">
           <img src="static/images/atom.png" class="workImage">
           <p class="workText">We love unique and challenging projects! Contact us for any of your offbeat development needs.</p>
         </div>
@@ -125,9 +126,9 @@
         <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
           <h1>The Team</h1>
           <hr>
-          <p id="teamParagraph">Our team brings 5+ years of experience across a variety of domains to problems of any size.</p>
+          <p>Our team brings 5+ years of experience across a variety of domains to problems of any size.</p>
         </div>
-        <div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
+        <div class="col-lg-6 col-xs-12 col-md-6 col-sm-6 profile">
           <img src="static/images/jcieslik.jpg" id="jcieslikImage">
           <h2>Joe Cieslik</h2>
           <p>Joe Cieslik is a software developer with experience spanning information security, backend development, system administration, and mobile development. He has previously worked with startups in the education and social media space. In his free time Joe develops pc games and works with his hands.</p>
@@ -136,7 +137,7 @@
             <a href="https://github.com/torchhound"><img src="static/images/github.png" class="contactIcons"></a>
           </div>
         </div>
-        <div class="col-lg-6 col-xs-6 col-md-6 col-sm-6">
+        <div class="col-lg-6 col-xs-12 col-md-6 col-sm-6 profile">
           <img src="static/images/gwhelan.jpg" id="gwhelanImage">
           <h2>Gavin Whelan</h2>
           <p>Gavin Whelan is a computer scientist with extensive functional programming, compiler, systems, and programming language experience. He has done work for startups in the operating systems and social media space. Gavin's hobbies include reverse engineering protocols, hacking electronics, and creating complex RF systems.</p>
@@ -162,6 +163,7 @@
       </div>
     </div>
     </div>
+      </div>
     <footer class="footer">
           <div class="container">
             <div class="center">
@@ -172,6 +174,6 @@
           </div>
       </footer>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
