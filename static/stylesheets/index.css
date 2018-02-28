@@ -5,6 +5,7 @@
     border-width: 1px;
     margin-left: 5px;
     margin-right: 5px;
+    color: #0069C3;
 }
 
 #wrapper {
@@ -60,6 +61,16 @@
 
 #skills {
   height: 50vh;
+}
+
+.bs-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #eee;
+  border-top-width: .25rem;
+  border-radius: .25rem;
+  border-top-color: #0069C3;
 }
 
 #projects {
