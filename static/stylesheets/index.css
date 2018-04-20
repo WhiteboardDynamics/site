@@ -77,9 +77,25 @@
   height: 100vh;
 }
 
+.collapseLink:hover, .collapseLink:visited, .collapseLink:link, .collapseLink:active {
+  text-decoration: none;
+}
+
+.panel-default > .panel-heading-custom {
+  border: 1px solid #eee;
+  border-bottom-width: .25rem;
+  border-radius: .25rem;
+  border-bottom-color: #0069C3;
+}
+
 #ojoScreen {
   height: 500px;
   width: 300px;
+}
+
+#turnkeyScreen {
+  height: 400px;
+  width: 217px;
 }
 
 #team {
