@@ -14,6 +14,34 @@
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="static/stylesheets/index.css">
+  <!-- Start of Async Drift Code -->
+  <script>
+  "use strict";
+
+  !function() {
+    var t = window.driftt = window.drift = window.driftt || [];
+    if (!t.init) {
+      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+      t.factory = function(e) {
+        return function() {
+          var n = Array.prototype.slice.call(arguments);
+          return n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+        var i = document.getElementsByTagName("script")[0];
+        i.parentNode.insertBefore(o, i);
+      };
+    }
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('ssvffuhzkcyn');
+  </script>
+  <!-- End of Async Drift Code -->
 </head>
 
 <body>
@@ -27,9 +55,9 @@
           <div class="row text-center">
             <ul class="nav nav-pills nav-justified" id="navBar">
               <li><a href="#projects">Projects</a></li>
-              <li><a href="#work">What We Do</a></li>
-              <li><a href="#team">Who We Are</a></li>
-              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="#work">Skills</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#contact">Connect</a></li>
             </ul>
           </div>
           <div class="row text-center">
@@ -160,7 +188,8 @@
         <div class="row text-center" id="contact">
           <h1>Connect</h1>
           <hr>
-          <p id="contactParagraph">Daily/weekly/monthly rates or fixed price project quotes available on request. <a href="mailto:contact@whiteboarddynamics.co" class="contactMargin">Get in touch.</a></p>
+          <p class="contactParagraph">Daily/weekly/monthly rates or fixed price project quotes available on request.</p>
+          <p class="contactParagraph"><a href="mailto:contact@whiteboarddynamics.co" class="contactMargin">contact@whiteboarddynamics.co</a></p>
           <div class="row">
             <div class="col-xs-12 col-md-12">
               <a href="https://github.com/WhiteboardDynamics" target="_blank"><img src="static/images/github.png" class="contactIcons"></a>
