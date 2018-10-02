@@ -59,6 +59,11 @@
   font-weight: bold;
 }
 
+#lambda {
+  filter: brightness(0.0);
+  filter: saturate(100%);
+}
+
 #skills {
   height: 50vh;
 }
@@ -104,16 +109,17 @@
   height: 95vh;
 }
 
-#teamTopDiv {
-  margin-bottom: -5vh;
-}
-
 #jcieslikImage {
   height: 125px;
   width: 105px;
 }
 
 #gwhelanImage {
+  height: 125px;
+  width: 125px;
+}
+
+#hroederImage {
   height: 125px;
   width: 125px;
 }
