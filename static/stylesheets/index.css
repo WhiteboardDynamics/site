@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 .nav-pills > li > a {
-    border-style: solid;
-    border-width: 1px;
-    margin-left: 5px;
-    margin-right: 5px;
-    color: #0069C3;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #0069C3;
 }
 
 #wrapper {
-    margin: 0 auto;
-    position: relative;
-    width: 100%;
-    max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .workblock {
-    margin-bottom: 4vh;
+  margin-bottom: 4vh;
 }
 
 .profile {
-    margin-top: 8vh;
+  margin-top: 8vh;
 }
 
 #hero {
@@ -64,7 +64,7 @@
 }
 
 #skillsTitle {
-  margin-top: 5vh;
+  margin-top: 12vh;
 }
 
 .bs-callout {
@@ -149,6 +149,10 @@
   width: 50px;
 }
 
+#twitterIcon {
+  filter: brightness(0%);
+}
+
 /*sticky footer*/
 
 html {
@@ -172,8 +176,8 @@ body {
 }
 
 .center {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
