@@ -102,6 +102,26 @@
   width: 217px;
 }
 
+#clients {
+  margin-top: 20px;
+}
+
+#innovateSullivan {
+  height: 215px;
+  width: 200px;
+}
+
+#turnkeyLogo {
+  margin-top: 75px;
+  height: 75px;
+  width: 300px;
+}
+
+#ttrn {
+  height: 215px;
+  width: 215px;
+}
+
 #team {
   margin-bottom: 50px;
   margin-top: 50px; 
